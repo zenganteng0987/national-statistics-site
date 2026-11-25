@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0d2b45">
+<title>NusantaraStat — Statistik Nasional Indonesia</title>
+<meta name="description" content="Angka resmi Indonesia: penduduk, ekonomi, kemiskinan, dan provinsi. Setiap angka disertai sumber dan tahun.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">N</span>
+      <span class="brand-name">NusantaraStat
+        <small>Statistik Nasional Indonesia</small>
+      </span>
+    </a>
+    <nav class="mainnav" aria-label="Navigasi utama">
+      <a href="#/" data-nav="home">Beranda</a>
+      <a href="#/economy" data-nav="economy">Ekonomi</a>
+      <a href="#/people" data-nav="people">Penduduk</a>
+      <a href="#/provinces" data-nav="provinces">Provinsi</a>
+      <a href="#/about" data-nav="about">Sumber Data</a>
+    </nav>
+    <label class="yearpick">Tahun
+      <select id="yearSelect" aria-label="Pilih tahun data"></select>
+    </label>
+  </div>
+</header>
+<main class="wrap" id="view" aria-live="polite"></main>
+<footer class="footer">
+  <div class="wrap">
+    <p><strong>NusantaraStat</strong> — situs statistik nasional Indonesia yang dibuat mandiri, bukan situs resmi pemerintah.</p>
+    <p>Angka di situs ini berasal dari Badan Pusat Statistik (BPS) dan Bank Dunia; sumber dan tahun tertulis pada setiap angka dan tabel. Data terakhir diperbarui November 2026.</p>
+    <p><a href="#/about">Lihat semua sumber dan cara data dipakai</a></p>
+  </div>
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>
